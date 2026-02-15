@@ -7,8 +7,6 @@ const installationManager = new InstallationManager();
 let mainWindow;
 let installProgressWindow = null;
 
-let mainWindow;
-
 const createWindow = () => {
   mainWindow = new BrowserWindow({
     width: 1200,
